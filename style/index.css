@@ -1,0 +1,38 @@
+/* PAGE D'ACCUEIL*/
+
+
+.accueil-introduction {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-items: flex-start;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    flex-direction: column;
+    background-image: url();
+}
+
+.produits-accueil {
+    background-color: transparent;
+    padding: 500px;
+}
+
+.produits-accueil h2 {
+    color: #ffd900;
+    font-size: 1.5em;
+    text-decoration: underline; 
+    color: #FFFFFF;
+    background: transparent;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ffd000, 0 0 30px #ffd000, 0 0 40px #ffd000, 0 0 55px #ffd000, 0 0 75px #ffd000; 
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.accueil-photos div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,69 @@
+/* PROPRIÉTÉ CSS*/
+
+
+
+
+body {
+    padding: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin: 10px;
+    background: linear-gradient(#000000, #434343);
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #b1aaaa;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0px #333333, 5px 4px 0px rgba(0,0,0,0.15);
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    display: block;
+}
+
+
+header {
+    display: block;
+    padding: 20px 50px;
+}
+
+
+main {
+    display: block;
+}
+
+section {
+    padding: 80px;
+}
+
+p, li {
+    font-size: 1.1em;
+    color: aliceblue;
+}
+
+nav a {
+    margin-left: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

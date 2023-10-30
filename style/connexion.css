@@ -1,0 +1,81 @@
+/* CONNEXION FORMULAIRE COMPTE CSS*/
+
+
+
+.section-compte h2 {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+    box-shadow: rgb(241, 196, 15) 0px 20px 30px -10px;
+}
+
+fieldset {
+    background-color: #534f4f;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 70px;
+    height: 200px;
+    margin: 20px;
+    width: 500px;
+}
+
+
+legend {
+    color: #FFFFFF;
+}
+
+label {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.mail-mdp {
+    display: flex;
+    flex-direction: column;
+}
+
+.boutton-login {
+    display: inline-block;
+    background-color: #F1C40F ;
+    color: #222121;
+    border-radius: 50px;
+}
+
+input[type="sumbit"] {
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.lien-create {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+.lien-create a {    
+    color: rgb(62, 123, 255);
+    font-size: large;
+    font-weight: bolder;
+}
