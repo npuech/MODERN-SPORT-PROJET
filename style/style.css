@@ -23,13 +23,6 @@ body {
     color: #ff0000;
 }
 
-.accueil-introduction h1 {
-    color: #FFFFFF;
-    text-shadow: 2px 2px 0px #333333, 5px 4px 0px rgba(0,0,0,0.15);
-    font-size: 3.5em;
-    font-family: 'Montserrat', sans-serif;
-}
-
 div {
     display: block;
 }
