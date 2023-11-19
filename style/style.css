@@ -13,14 +13,14 @@ body {
     margin: 0;
 }
 
-a {
+.lien-navbar a {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-a:hover {
+.lien-navbar a:hover {
     text-decoration: underline;
-    color: #b1aaaa;
+    color: #ff0000;
 }
 
 h1 {
