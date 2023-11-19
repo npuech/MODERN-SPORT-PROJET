@@ -8,7 +8,7 @@
     margin: 20px;
 }
 
-form {
+.formulaire-login {
     display: flex;
     flex-direction: row;
     width: 40%;
