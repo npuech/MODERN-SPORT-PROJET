@@ -54,11 +54,11 @@ p, li {
     color: aliceblue;
 }
 
-nav a {
+.navbar a {
     margin-left: 30px;
 }
 
-nav {
+.navbar {
     display: flex;
     flex-direction: row;
     align-items: center;
