@@ -53,31 +53,19 @@ function personInfo (age, nom, prénom, pays) {
 console.log(personInfo(16, "Puech", "Noa", "FR"));
 //Affiche les infos de la personne : age, nom, prénom, pays.
 
-// Fonction nombre aléatoire
-
-function getRandomInt(max) {
-    return Math.floor(Math.random() * (max + 1));
-}
-const solution = getRandomInt(10)
-console.log(solution);
-// Affiche un chiffre aléatoire entre 0 et 10.
-
-
-function isRight(n) {
-    return solution === n
-}
-
-function guess() {
-    const number = prompt("Entrez un chiffre") * 1
-
-    return isRight(number)
-}
-
-for (i = 0; i < 3; i++) {
-    if(guess()) {
-        console.log("Bravo ! :D")
-        break;
-    } else if (i === 2) {
-        console.log("Vous avez perdu :/")
+function isPremier(n) {
+    for(let i = n - 1; i > 1; i--) {
+        console.log(i)
     }
+    if (n % i === 0) {
+       return false; 
+    }
+    return true;
 }
+
+console.log(isPremier(0));
+console.log(isPremier(1));
+console.log(isPremier(2));
+console.log(isPremier(3));
+console.log(isPremier(11));
+console.log(isPremier(12));
