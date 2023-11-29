@@ -54,18 +54,36 @@ console.log(personInfo(16, "Puech", "Noa", "FR"));
 //Affiche les infos de la personne : age, nom, prénom, pays.
 
 function isPremier(n) {
-    for(let i = n - 1; i > 1; i--) {
-        console.log(i)
+    if (n < 2) {
+        return false;
     }
-    if (n % i === 0) {
+    for(let i = n - 1; i > 1; i--) {
+        if (n % i === 0) {
        return false; 
+    }
     }
     return true;
 }
 
-console.log(isPremier(0));
-console.log(isPremier(1));
-console.log(isPremier(2));
-console.log(isPremier(3));
-console.log(isPremier(11));
-console.log(isPremier(12));
+console.log("0", isPremier(0));
+console.log("1", isPremier(1));
+console.log("2", isPremier(2));
+console.log("3", isPremier(3));
+console.log("11", isPremier(11));
+console.log("12", isPremier(12));
+
+
+const demo = function(nom) {
+    return "Salut " + nom;
+}
+
+const resultat = demo("Noa");
+console.log(resultat);
+
+function test(nbr) {
+    return nbr * 100;
+}
+
+const total = test(400);
+
+console.log(total);
