@@ -87,3 +87,24 @@ function test(nbr) {
 const total = test(400);
 
 console.log(total);
+
+
+const notes = [12, 16, 18, 17, 8]
+const person = {
+    firstname: "Noa",
+    lastname: "Puech"
+};
+const greeting = "Bonjour"
+for (let letter in greeting) {
+    console.log(letter)
+}
+
+
+let chiffre = prompt('Entrez un nombre')
+if (chiffre > 10 || chiffre < 0) {
+    console.log("Le nombre n'est pas entre 0 et 10")
+} else {
+    for (let i = chiffre; i >= 0; i--) {
+        console.log(i)
+    }
+}
