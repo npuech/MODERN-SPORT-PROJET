@@ -99,12 +99,17 @@ for (let letter in greeting) {
     console.log(letter)
 }
 
+const guess = 8
 
-let chiffre = prompt('Entrez un nombre')
-if (chiffre > 10 || chiffre < 0) {
-    console.log("Le nombre n'est pas entre 0 et 10")
-} else {
-    for (let i = chiffre; i >= 0; i--) {
-        console.log(i)
+while(true) {
+    const chiffre = prompt("Votre chiffre") * 1
+    if (chiffre < guess) {
+        console.log("Plus")
+    } else if (chiffre > guess) {
+        console.log("Moins")
+    } else {
+        break
     }
 }
+
+console.log("Bravo ! Vous avez deviné")
